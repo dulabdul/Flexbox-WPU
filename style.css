@@ -1,11 +1,19 @@
 .container {
     width: 600px;
+    height: 400px;
     box-sizing: border-box;
     border: 5px solid black;
     margin: 50px auto;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .container div {
     background-color: aqua;
-
+    width: 100px;
+    height: 100px;
+    margin: 2px;
 }
